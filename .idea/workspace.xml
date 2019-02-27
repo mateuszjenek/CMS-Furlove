@@ -1,7 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="240e1bd0-9a75-4beb-8abe-2955a6fa3473" name="Default Changelist" comment="" />
+    <list default="true" id="240e1bd0-9a75-4beb-8abe-2955a6fa3473" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/aria_log.00000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/aria_log_control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/cat.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/cat.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/cat_image.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/cat_image.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/image.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/image.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/kitten.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/kitten.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/kitten_image.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/kitten_image.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/litter.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/litter.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/message.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/message.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/partner.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/partner.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/partner_image.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/partner_image.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/post.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/post.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/post_image.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/post_image.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/user.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/user.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/video.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/database/video.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/ib_logfile0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/ib_logfile1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/multi-master.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/column_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/column_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/column_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/columns_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/columns_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/columns_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/db.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/db.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/db.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/event.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/event.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/event.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/func.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/func.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/func.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/general_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/general_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/general_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/global_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/global_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/global_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/gtid_slave_pos.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/gtid_slave_pos.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_category.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_category.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_category.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_keyword.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_keyword.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_keyword.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_relation.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_relation.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_relation.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_topic.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_topic.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/help_topic.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/index_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/index_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/innodb_index_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/innodb_index_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/innodb_table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/innodb_table_stats.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/plugin.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/plugin.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/plugin.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/proc.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/proc.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/proc.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/procs_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/procs_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/procs_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/proxies_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/proxies_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/proxies_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/roles_mapping.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/roles_mapping.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/roles_mapping.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/servers.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/servers.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/servers.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/slow_log.CSM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/slow_log.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/slow_log.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/table_stats.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/table_stats.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/table_stats.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/tables_priv.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/tables_priv.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/tables_priv.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_leap_second.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_leap_second.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_leap_second.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_name.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_name.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_name.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_transition.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_transition.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_transition.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_transition_type.MAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_transition_type.MAI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/time_zone_transition_type.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/transaction_registry.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/transaction_registry.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/mysql/user.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/database/mysql/performance_schema/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php-fpm/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/about_us.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/admin_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/cats.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/home_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/kittens_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/partners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/quote.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/updates.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/contact.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/kitten_detail.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/kittens.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/posts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/security.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/strain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/CatClubAmber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/cookies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/kittens.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/landingpage_hello.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/sign_in_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/undraw_playful_cat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/about_us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/admin_base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/admin_cat_edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/admin_edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/admin_kitten_edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/cats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/kitten_detail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/kittens.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/security.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/strain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/packages/assets.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/packages/webpack_encore.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/0f91fced4876549b56dc4c219cb82c5aa9e5488c.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/13541450bca68310126a684a718b40221e4328eb.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/216c0b39582fa5dd0ecfdfb4351f85b1f8d8dcab.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/2359a8d2e027f5952add9f56fb29ed3a9dbe45f1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/29b7ff0132a6b35ae21793ec8aec23c61cd88dcc.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/2b597be31f34535effe9bd4e9bbc22ad9f04e4cf.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/2e932fcf3a0deeb6210b0b2f082c91cba33183ba.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/57b613d4a57dba626b21f072ded2b7b436592ca3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/5d8a6cc7baad6ee4ac971d8a0cfe7aaef09f2d9f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/63314a27e0df129525811d46c787331b7c45bc1f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/6a9974056b4764ed6ff06c6ad532843251f69102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/6dab0a90ba3c0e92067f17438ab959893ca77f14.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/6fae73ea333ffdc1d9e6baaa850a66d6aa4723e9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/757ea8f6aead0ec3547c50e0fc755e450887890f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/7a9f541b1aa6a31cb1a1813c4b2bd3ec3ba78a3a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/8c4e47d32e134fff67d6cc82858159a3f79f5575.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/962d1f17063153e1dc2ef115001ace2f1f8bc22e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/a3511fcc238a703895adf6bc5d2c74433ebe1e4f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/a6afcb23ce31e7f28e34ca1587deaff6c17c1d4b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/b04364350dbe83f77894321398c9d8fe2cebfb23.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/b38eff4567eb38e6df37e4d8111a875a0a8b61c2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/b7a092ce116d48de4bada717156824673633c34d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/bdca5847ea6a0493b329c7c3c678a3199d8767fa.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/c529077ac37e6a058f2a62bba0d84e2b6842694f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/cd5ccc72dcff1308282925afa43499e53b268394.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/e751e63e280e58aad8f35e7c720381ffe9f8dfad.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/f68ba6f1dcb5250639bf6c8c8de0db244ecb2a0e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/f71b89bda4e682b4f749125b3af7e077b988d6d3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/cat/f913992cc2fa2d9f1087b32730967aef5ddcda71.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/14d9dfa4b964beaa1f36eaf3aa7922ca9fdc7060.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/1ae501a2fa1c4d226b67f0ca042577cf764616e8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/32dcd720fd37f9cae9ada2f15c411bb86b28f919.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/441c7fa8fd7adaee7f220e3f27c7004928ebbd4b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/451326c765074df10afdb83091afbc7dc6dee712.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/54516c1ee0a1f02d88d5ef3628ce2ebe61c9062b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/56964ba32ef205fe476739b59814df8ce49c066f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/5d7b45600db3f182d6ce29f702d12fb19a98a1e3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/5f7e99633a6b900d2f8c7cbd98e03ef4a9667850.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/651abbb0d756544bd2294da5fe82fa20062449e8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/69f3f4cb6656a000a9f8a2fa86e85a6c8ee37363.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/77a88fbb81e95825cabfb8f859325f14f68a6c6a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/79bb9a2bf380577caa641416bb94cce9cf804cc1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/8894e5d8374a5c5f405ddc950a0be8d594f2dde5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/8e09ce7ff3952d233f1121066a8a946c54f1848d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/95393792176e3e192bc3a1865c14ec5bad8a44a4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/9773cd02722577fd24504917cda9cfe2d19f30d6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/a328817c6c9312cbe16a8b95d8a0fc561581e2e4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/a4b32912610b6fad5625f7be1bedb4b9fa3c2589.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/ada36f862d048665d19f60c648c71d4a517cba65.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/b02febc880ba772a4a0abcc114546c53f2d873ca.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/c3b4a7de6cd947403d7f537f66e78a7b37240e61.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/c65e0125f47408ac682bee2f98959cdd2259b7f5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/cf70d53b62b742b33d8807515c4993360e2fdd1d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/cfb153f34b2467400e4d86b2a3ba6a6dc00c17e1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/e3b73e1d9714009faed011e3af02faebbd1bd237.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/e8d5193ed3fcebff7d4bc4334849b63a282be369.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/f049bd3975ca15d4e4a879c0c1c175b9f8b370f2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/kitten/f3d7d60b475b8befb831fc6b715f370b517b7066.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/029808adb465e5a83ba338b1ae988b319128a32a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/10d80b0375f80ca319087012575191c0a3656bfe.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/8ad57a718186e2f348d589240b9e8104cc2a8bee.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/98d1ece434fb7ead2bac5218250d9fa7aea55293.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/aa8a05c751c2fb19ad4f2eef543997a629738557.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/amazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/d817fc2dbe883c87200cfea92707819b48afda16.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/e4ece53761ffdf2820db697dcccf24283106a8da.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/intel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/partner.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/royal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/shk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/partner/wcf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/1e17a8d905527c4ea46f6a102b100b528b288416.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/2ffeb6979b72a0db3a7343678116555f45cbbe33.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/397392361f4f54d5fba238c87af2b3485639a97b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/41ccf0888f04f930522ee38e8be42c0dd85de689.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/451326c765074df10afdb83091afbc7dc6dee712.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/56964ba32ef205fe476739b59814df8ce49c066f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/628c399c89d56797b8d8f3f518fc56bf1422f40f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/72ffb6414f717c79214cb1b9fbaf07022a04399b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/7774f37c7a9d332c399c7a2e9b5574a61bfdfc8b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/a328817c6c9312cbe16a8b95d8a0fc561581e2e4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/a4b32912610b6fad5625f7be1bedb4b9fa3c2589.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/a627012a2dcd0e02511746f039bec0269e5e8a3a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/b02febc880ba772a4a0abcc114546c53f2d873ca.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/c06fa9136dbbee74dfce4add604db82e63b54f1f.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/c3b4a7de6cd947403d7f537f66e78a7b37240e61.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/cbbc0457d89a25a309c5254225a1dd99844f4e7a.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/cf4639e84a425103957e57f89e073d128c044299.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/e1a7cec127dc6764b1688885c5678f5c0286fc6e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/uploads/post/e8da9ef7e3d4e815153066338cd707cbff8b550b.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/AboutUsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/Admin/CatController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/Admin/KittenController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/Admin/LitterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/Admin/PartnerController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/Admin/PostController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/CatsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/ContactController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/CookiesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/KittensController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/PostsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/SecurityController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Controller/StrainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/Cat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/CatImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/Kitten.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/KittenImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/Litter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/Message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/Partner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/PartnerImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/PostImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Entity/Video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Form/CatType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Form/KittenType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Form/LitterType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Form/PartnerType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Form/PostType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/CatImageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/CatRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/ImageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/KittenImageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/KittenRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/LitterRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/MessageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/PartnerImageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/PartnerRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/PostImageRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/PostRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Repository/VideoRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Security/LoginAuthenticator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/about_us/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/add_base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/browse_base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/cat/add/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/cat/edit/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/cat/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/components/left_bar.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/edit_base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/kitten/add/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/kitten/edit/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/kitten/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/litter/add/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/litter/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/partner/add/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/partner/edit/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/partner/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/post/add/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/post/edit/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/post/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/base_empty.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/cats/cat.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/cats/detail.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/cats/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/footer/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/home_carousel/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/kittens_carousel/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/kittens_carousel/kitten.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/navigation/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/partners/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/quote/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/updates/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/components/updates/post.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/contact/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/cookies/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/home/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/kittens/detail.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/kittens/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/kittens/kitten.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/posts/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/posts/post.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/security/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/strain/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/yarn.lock" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,20 +385,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/nginx/Dockerfile">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/php-fpm/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="525">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -37,57 +397,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="209">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/src/Entity/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/src/Kernel.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/nginx/conf.d/default.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/nginx/sites/default.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker/nginx/nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/public/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -229,11 +542,13 @@
     <option name="width" value="1479" />
     <option name="height" value="939" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,59 +556,10 @@
               <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="conf.d" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="php-fpm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fur Love" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fur Love" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,13 +567,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docker/nginx/sites" />
-      <recent name="$PROJECT_DIR$/php" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker" />
       <recent name="$PROJECT_DIR$/build" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/nginx/sites" />
+      <recent name="$PROJECT_DIR$/php" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,12 +604,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6816000" />
+    <option name="totallyTimeSpent" value="6930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="845" y="23" width="1479" height="939" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.23938762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.22161172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50176054" side_tool="true" weight="0.2496318" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,7 +622,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3293979" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27142859" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -366,6 +632,22 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker-symfony-master/nginx/symfony.conf" />
@@ -377,23 +659,9 @@
     <entry file="file://$PROJECT_DIR$/build/php/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/build/php/conf/www.conf" />
     <entry file="file://$PROJECT_DIR$/build/php/conf/php-fpm.conf" />
-    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php-fpm/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/php-fpm/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/docker-compose.travis.yml" />
     <entry file="file://$PROJECT_DIR$/docker/database/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -446,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="209">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -459,6 +727,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Kernel.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
