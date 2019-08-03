@@ -1,0 +1,25 @@
+
+###> symfony/framework-bundle ###
+src/.env.local
+src/.env.local.php
+src/.env.*.local
+src/public/bundles
+src/var
+src/vendor
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+src/.phpunit
+src/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+src/.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> symfony/webpack-encore-bundle ###
+src/node_modules/
+src/public/build
+src/npm-debug.log
+src/yarn-error.log
+###< symfony/webpack-encore-bundle ###
