@@ -1,0 +1,30 @@
+@import "variables";
+
+$pagination-active-color: white;
+$pagination-active-bg: $primary_color;
+$pagination-color: $primary_color_dark;
+$pagination-hover-color: $primary_color_dark;
+
+@import "~bootstrap/scss/bootstrap";
+
+//  Bootstrap extension
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@import "~hamburgers/_sass/hamburgers/hamburgers";
+@import url('https://fonts.googleapis.com/css?family=Poppins:200');
+
+@import "components/navigation";
+@import "components/footer";
+
+body {
+    margin: 70px 0 0; // The same as .nav-bar
+}
+
+
+

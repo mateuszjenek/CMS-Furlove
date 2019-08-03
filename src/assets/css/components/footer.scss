@@ -1,0 +1,43 @@
+@import "../variables";
+
+.footer-bar {
+  margin-top: 2rem;
+  border-top: black 1px solid
+}
+
+.footer-image {
+  text-align: center;
+
+  img {
+    width: 5rem;
+  }
+}
+
+.footer-copyright div {
+  transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  font-size: 0.8rem;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.footer-social {
+  i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+  }
+  i:hover {
+    color: $primary_color;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.footer-cookies {
+  font-size: 0.6rem;
+}

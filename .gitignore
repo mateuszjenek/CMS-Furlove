@@ -18,9 +18,8 @@ src/.web-server-pid
 ###< symfony/web-server-bundle ###
 
 ###> symfony/webpack-encore-bundle ###
-src/node_modules/
+src/node_modules
 src/public/build
 src/npm-debug.log
 src/yarn-error.log
 ###< symfony/webpack-encore-bundle ###
-src/

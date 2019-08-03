@@ -1,0 +1,42 @@
+<div id="c-navbar">
+    <h2 class="text-center" style="margin:0; padding: 1rem; color: white">FurLove</h2>
+    <div style="width: 90%; margin-left: auto; margin-right: auto; padding: 1px; border-bottom: lightgray 1px solid"></div>
+    <div class="text-center" style="color: #787d91; padding: 0.5rem">
+        <i class="far fa-newspaper"></i>
+        <h4 style="display: inline-block">Aktualności</h4>
+    </div>
+
+    <a href="{{ path('post_add') }}"><h6 class="text-center" style="color: #B4B8C4">Napisz post</h6></a>
+    <a href="{{ path('post') }}"><h6 class="text-center" style="color: #B4B8C4">Przeglądaj posty</h6></a>
+
+    <div class="text-center" style="color: #787d91; padding: 0.5rem">
+        <i class="fas fa-cat"></i>
+        <h4 style="display: inline-block">Kocięta</h4>
+    </div>
+
+    <a href="{{ path('kitten_add') }}"><h6 class="text-center" style="color: #B4B8C4">Dodaj kocię</h6></a>
+    <a href="{{ path('kitten') }}"><h6 class="text-center" style="color: #B4B8C4">Przeglądaj kocięta</h6></a>
+    <a href="{{ path('litter_add') }}"><h6 class="text-center" style="color: #B4B8C4">Dodaj miot</h6></a>
+    <a href="{{ path('litter') }}"><h6 class="text-center" style="color: #B4B8C4">Przeglądaj mioty</h6></a>
+
+    <div class="text-center" style="color: #787d91; padding: 0.5rem">
+        <i class="fas fa-paw"></i>
+        <h4 style="display: inline-block">Twoje koty</h4>
+    </div>
+
+    <a href="{{ path('cat_add') }}"><h6 class="text-center" style="color: #B4B8C4">Dodaj kota</h6></a>
+    <a href="{{ path('cat') }}"><h6 class="text-center" style="color: #B4B8C4">Przeglądaj koty</h6></a>
+
+    <div class="text-center" style="color: #787d91; padding: 0.5rem">
+        <i class="fas fa-users"></i>
+        <h4 style="display: inline-block">Partnerzy</h4>
+    </div>
+
+    <a href="{{ path('partner_add') }}"><h6 class="text-center" style="color: #B4B8C4">Dodaj partnera</h6></a>
+    <a href="{{ path('partner') }}"><h6 class="text-center" style="color: #B4B8C4">Przeglądaj partnerów</h6></a>
+
+    <div style="position: absolute; bottom: 0; left:0; right: 0">
+        <div style="width: 90%; margin-left: auto; margin-right: auto; padding: 1px; border-bottom: lightgray 1px solid"></div>
+        <a href="{{ path('logout') }}"><h6 class="text-center" style="padding: 0.5rem; color: #B4B8C4">Wyloguj</h6></a>
+    </div>
+</div>

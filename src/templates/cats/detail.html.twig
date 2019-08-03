@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}FurLove | {{ cat.name }}{% endblock %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('kitten_detail') }}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('kitten_detail') }}
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="p-5 row">
+            <div class="col-md-5">
+                <div class="profile-img" style="background-image: url('{{ asset("uploads/cat/" ~ cat.images[0].image.filePath) }}')"></div>
+            </div>
+            <div class="pl-5 col-md-7" style="align-self: center;">
+                <h2 class="my-4"><b>Mam na imię {{ cat.name }}</b></h2>
+                <h5>{{ cat.sex == 'M' ? 'Urodziłem' : 'Urodziłam' }} się {{ cat.birthDate.format('d-m-Y') }}</h5>
+                <h5>Jestem {% if cat.sex == 'M' %}chłopakiem <i style="color: deepskyblue" class="fas fa-mars"></i>{% else %}dziewczynką <i style="color: pink" class="fas fa-venus"></i>{% endif %}</h5>
+                {% if not cat.isOur %}<h4 class="my-3">Należe do hodowli {{ cat.breeding }}</h4>{% endif %}
+            </div>
+        </div>
+
+        <h4><b>Trochę o mnie</b></h4>
+        <h5>{{ cat.description }}</h5>
+
+        <h4 class="mt-4"><b>Galeria</b></h4>
+        <div id="carousel-md" class="d-none d-md-block">
+            {% for image in cat.images %}
+                <a href="{{ asset("uploads/cat/" ~ image.image.filePath) }}" data-lightbox="kitten-md">
+                    <img style="width: 100%" src="{{ asset("uploads/cat/" ~ image.image.filePath) }}"/>
+                </a>
+            {% endfor %}
+        </div>
+
+        <div id="carousel" class="d-block d-md-none">
+            {% for image in cat.images %}
+                <a href="{{ asset("uploads/cat/" ~ image.image.filePath) }}" data-lightbox="kitten">
+                    <img style="width: 100%" src="{{ asset("uploads/cat/" ~ image.image.filePath) }}"/>
+                </a>
+            {% endfor %}
+        </div>
+
+    </div>
+{% endblock %}

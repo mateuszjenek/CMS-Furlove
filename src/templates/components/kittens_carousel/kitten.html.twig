@@ -1,0 +1,16 @@
+{% for kitten in kittens %}
+    <div>
+        <div class="card">
+            <div class="card-image" style="background-image: url('{{ asset("uploads/kitten/" ~ kitten.images[0].image.filePath) }}')"></div>
+            <div class="card-content">
+                <h4>Nazywam się<br/>{{ kitten.name }}</h4>
+                <p>Urodziłem się {{ kitten.birthDate.format('Y-m-d') }}<br/>{{ kitten.shortDescription }}
+                </p>
+                <h6 style="color:{{ kitten.state == 0 ? 'green' : 'red' }}">{{ kitten.stateMessage }}</h6>
+            </div>
+            <a href="/kittens/{{ kitten.id }}">
+                <div class="card-button">Więcej o mnie</div>
+            </a>
+        </div>
+    </div>
+{% endfor %}

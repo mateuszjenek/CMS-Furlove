@@ -1,0 +1,46 @@
+@import "../variables";
+
+.kitten-container {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  margin: 0.5rem;
+  border: darkgray 1px solid;
+
+  .card-image {
+    width: 100%;
+    padding-bottom: 66.66%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-content {
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+
+    h4 {
+      text-align: center;
+    }
+
+    h6 {
+      margin-bottom:0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .card-button:hover {
+    background-color: $primary_color_dark;
+  }
+
+  .card-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: $primary_color;
+    text-align: center;
+    color: white;
+  }
+}

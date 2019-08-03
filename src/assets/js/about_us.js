@@ -1,0 +1,1 @@
+require('../css/about_us.scss');

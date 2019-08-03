@@ -1,0 +1,18 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block body %}
+    {% for item in items %}
+        <div class="mx-1 my-3 row" style="background-color: white; border-radius: 2rem">
+            {% if imageDir is defined %}
+            <div class="browse-img col-md-3 col-lg-2" style="background-image: url('{{ asset(imageDir ~ item.images[0].image.filePath) }}'); "></div>
+            {% endif %}
+
+            <div class="{{ imageDir is defined ? 'col-md-6 col-lg-8' : 'col-md-9 col-lg-10'}}" style="padding: 1rem;">
+                {% block content %}{% endblock %}
+            </div>
+            <div class="browse-btn col-md-3 col-lg-2">
+                <a style="text-align: center; transform: translateY(-50%); position: relative; top: 50%; display: block; color: white" href="{{ url(editController, {'id': item.id}) }}"><h6>Edytuj</h6></a>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

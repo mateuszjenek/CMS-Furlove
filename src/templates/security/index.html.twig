@@ -1,0 +1,48 @@
+{% extends 'base_empty.html.twig' %}
+
+{% block title %}FurLove | Zaloguj się{% endblock %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('security') }}
+{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <img src="{{asset('build/images/sign_in_logo.png')}}" alt="Fur Love logo">
+            <form method="post" class="mx-5 mx-md-0">
+                {% if error %}
+                    <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                {% endif %}
+
+                <label for="inputEmail" class="sr-only">Email</label>
+                <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+                <input type="hidden" name="_csrf_token"
+                       value="{{ csrf_token('authenticate') }}"
+                >
+
+                {#
+                    Uncomment this section and add a remember_me option below your firewall to activate remember me functionality.
+                    See https://symfony.com/doc/current/security/remember_me.html
+
+                    <div class="checkbox mb-3">
+                        <label>
+                            <input type="checkbox" name="_remember_me"> Remember me
+                        </label>
+                    </div>
+                #}
+
+                <button class="btn btn-block btn-primary" type="submit">
+                    Sign in
+                </button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('security') }}
+{% endblock %}

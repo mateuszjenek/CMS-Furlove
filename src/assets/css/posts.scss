@@ -1,0 +1,18 @@
+@import "components/updates";
+
+.fa-arrow-left, .fa-arrow-right {
+  color: gray;
+}
+
+@import "~lightbox2/src/css/lightbox.css";
+@import "~iframe-lightbox/css/iframe-lightbox.css";
+
+$slick-arrow-color: #000;
+
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+
+.post-content {
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+}

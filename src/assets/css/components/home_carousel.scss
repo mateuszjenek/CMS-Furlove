@@ -1,0 +1,17 @@
+.carousel-title {
+  font-family: 'Lobster', cursive;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: min-content;
+  height: min-content;
+  font-size: 2em;
+  text-shadow: 2px 2px #ef7192;
+  @media (min-width: 768px) {
+    font-size: 5em;
+  }
+  color: white;
+}

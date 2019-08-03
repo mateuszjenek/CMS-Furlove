@@ -1,0 +1,81 @@
+@import "../variables";
+
+.nav-bar {
+  height: 70px;
+  background-color: white;
+  border-bottom: black 1px solid;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  z-index: 99;
+
+  div {
+    text-align: center;
+    a {
+      font-family: 'Poppins', sans-serif;
+      text-decoration: none;
+      vertical-align: middle;
+      line-height: 70px;
+      color: black;
+    }
+
+    a:hover {
+      color: $primary_color;
+    }
+  }
+}
+
+#nav-logo {
+  width: 90px;
+}
+
+#mobile-menu {
+  padding-top: 70px;
+  width: 100vw;
+  height: 100vh;
+
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  z-index: 98;
+  position: fixed;
+
+  .mobile-menu-background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+    background-color: black;
+  }
+
+  .inner {
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    text-align: center;
+
+    div {
+      a {
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        color: white;
+        font-size: 2em;
+      }
+    }
+  }
+}
+.hamburger {
+  height: 100%;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 30px;
+}

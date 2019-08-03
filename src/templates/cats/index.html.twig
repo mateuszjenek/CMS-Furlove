@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}FurLove | Nasze koty{% endblock %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('cats') }}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('cats') }}
+{% endblock %}
+
+{% block body %}
+    <div style="width: 100%; height: 50vh; min-height: 350px; background-image: url('{{ asset('./build/images/about.jpg') }}'); background-size: cover; background-position: center"></div>
+<div class="container">
+    <h1 style="font-family: 'Poppins', sans-serif" class="my-5 text-center"><b>Nasza kocia załoga</b></h1>
+    <div class="row">
+        {% include 'cats/cat.html.twig' %}
+    </div>
+</div>
+{% endblock %}

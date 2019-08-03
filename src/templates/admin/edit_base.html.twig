@@ -1,0 +1,28 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block body %}
+    {{ form_start(form) }}
+
+    {% if imageDir is defined %}
+    <div class="row">
+        {% for fileName, field in formFields %}
+            <div class="col-6 col-md-3 col-lg-2 edit-img-container">
+                <div class="edit-img" style="background-image: url('{{ asset(imageDir ~ fileName) }}')"></div>
+                <div class="edit-checkbox">
+                    <label><i class="fas fa-trash"></i></label>
+                    {{ form_widget(attribute(form, field)) }}
+                </div>
+                {{ form_errors(attribute(form, field)) }}
+            </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% block custom_form_fields %}{% endblock %}
+    {{ form_end(form) }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('admin_edit') }}
+    {% block javascripts_more %}{% endblock %}
+{% endblock %}

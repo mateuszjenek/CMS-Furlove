@@ -1,0 +1,42 @@
+.posts {
+  font-family: 'Poppins', sans-serif;
+}
+
+.posts-more-btn {
+  color: #af8eb5;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: fit-content;
+}
+
+.post {
+  border: darkgray 1px solid;
+  border-radius: 0.25rem;
+}
+
+.post-img {
+  height: 12rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.post-btn {
+  right: -1px;
+  left: 0;
+  padding: 1rem;
+  background-color: #e1bee7;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.post-btn:hover {
+  background-color: #af8eb5;
+}
+
+.post-title {
+  padding: 0.25rem;
+  margin-bottom: 4rem;
+}

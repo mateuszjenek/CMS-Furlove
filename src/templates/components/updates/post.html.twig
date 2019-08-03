@@ -1,0 +1,10 @@
+{% for post in posts %}
+    <div class="post row mx-2 mx-md-0 my-4">
+        <div class="post-img col-md-4" style="background-image: url('{{ asset('uploads/post/' ~ post.images[0].image.filePath) }}')"></div>
+        <div class="col-md-8 p-0">
+            <h4 class="post-title">{{ post.title }}</h4>
+            <a href="/posts/{{ post.id }}"><div class="post-btn">Czytaj</div></a>
+        </div>
+
+    </div>
+{% endfor %}

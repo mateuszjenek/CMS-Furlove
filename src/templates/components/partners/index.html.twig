@@ -1,0 +1,20 @@
+{% if partners is defined and partners is not empty%}
+<div class="partners py-5">
+    <h1><b>Nasze Kluby i Partnerzy</b></h1>
+    <div class="home-line"></div>
+    <div class="row row-eq-height">
+        {% for partner in partners %}
+            <div class="col-md-4 headline">
+                <a href="{{ partner.link }}" style="color: #000; text-decoration: none">
+                <div class="partners-item">
+                    <i class="fas fa-paw"></i>
+                    <h3>{{ partner.name }}</h3>
+                    <img src="{{ asset("uploads/partner/" ~ partner.images[0].image.filePath) }}" alt="{{ partner.name }}">
+                    <p>{{ partner.description }}</p>
+                </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

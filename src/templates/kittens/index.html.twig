@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}FurLove | Kocięta{% endblock %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('kittens') }}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('kittens') }}
+{% endblock %}
+
+{% block body %}
+    <div id="header-image"></div>
+    <div class=" pt-3 container">
+        <h1 class="my-4"><b>Kocięta</b></h1>
+        <p><i>Pierwsze dni pobytu kota w nowym domu dostarczają wielu wrażeń zarówno zwierzęciu jak i domownikom, mogą być bardzo stresującym przeżyciem. Dobrze gdy nowy opiekun będzie mógł poświęcić w tych dniach więcej czasu kotu, aby poczuł się bezpiecznie i pewnie. Musimy przede wszystkim zapewnić mu spokój i pozwolić zapoznać się z nowym terytorium. Po przyniesieniu kota do domu najlepiej postawić transporterek w jednym pokoju, aby sam z niego wyszedł i dokładnie zwiedził najbliższy teren. Później sam z wrodzoną ciekawością na pewno postanowi sprawdzić pozostałe zakątki mieszkania. Poznanie nowego otoczenia musi przebiegać stopniowo i łagodnie, gdyż nowe miejsce i osoby to dla małego kociaka spore źródło stresu.</i></p>
+
+        <div>
+            {% for litter in litters %}
+                <div class="litter-container">
+                    <h2 class="text-center"><b>Miot {{ litter.getLitter() }}</b></h2>
+                    <div class="litter-line-top"></div>
+                    <h5 class="text-center">Rodzice</h5>
+                    <div class="row" style="justify-content: center">
+                        <a href="/cats/{{ litter.getMother().id }}" style="padding: 0;" class="col-6 text-right">
+                            <h5 class="d-none d-md-inline-block litter-cat-name">{{ litter.getMother().getName() }}</h5>
+                            <div class="litter-cat-img" style="transform: translateX(10%); background-image: url('{{ asset("uploads/cat/" ~ litter.getMother().images[0].image.filePath) }}')"></div>
+
+                        </a>
+                        <a href="/cats/{{ litter.getFather().id }}" style="padding: 0" class="col-6">
+                            <div class="litter-cat-img" style="transform: translateX(-10%); background-image: url('{{ asset("uploads/cat/" ~ litter.getFather().images[0].image.filePath) }}')"></div>
+                            <h5 class="d-none d-md-inline-block litter-cat-name" >{{ litter.getFather().getName() }}</h5>
+                        </a>
+                    </div>
+                    <div class="litter-line-bottom"></div>
+                    <div class="row">
+                        {% include 'kittens/kitten.html.twig' %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

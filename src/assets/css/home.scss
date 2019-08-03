@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+$slick-arrow-color: #000;
+
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+
+
+@import "components/home_carousel";
+@import "components/quote";
+@import "components/updates";
+@import "components/kittens_carousel";
+@import "components/partners";
+
+@import "variables";
+
+.home-line {
+  width: 10rem;
+  border-bottom: $primary_color 0.5rem double;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+

@@ -1,0 +1,13 @@
+{% if kittens is defined and kittens is not empty%}
+<div class="kitten-container py-5">
+    <h1 class="text-center"><b>Mamy kociaczki</b></h1>
+    <div class="home-line"></div>
+    <div class="kitten-carousel-md d-none d-md-block">
+        {% include 'components/kittens_carousel/kitten.html.twig' %}
+    </div>
+
+    <div class="kitten-carousel d-md-none d-block">
+        {% include 'components/kittens_carousel/kitten.html.twig' %}
+    </div>
+</div>
+{% endif %}

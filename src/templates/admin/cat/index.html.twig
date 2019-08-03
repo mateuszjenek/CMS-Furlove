@@ -1,0 +1,8 @@
+{% extends 'admin/browse_base.html.twig' %}
+
+{% block content %}
+    <h4><b>{{ item.name }}</b></h4>
+    <p style="margin: 0">
+    Ur. : {{ item.birthDate.format('d-m-Y') }}
+    </p>
+{% endblock %}

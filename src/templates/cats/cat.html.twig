@@ -1,0 +1,18 @@
+{% for cat in cats %}
+    <div class="col-md-4" style="margin: 0 auto">
+        <div class="card">
+            <div class="card-image" style="background-image: url('{{ asset("uploads/cat/" ~ cat.images[0].image.filePath) }}')"></div>
+            <div class="card-content">
+                <h4>Nazywam się<br/>{{ cat.name }}</h4>
+                <p>
+                    {{ cat.sex == 'M' ? "Urodziłem" : "Urodziłam" }} się {{ cat.birthDate.format('Y-m-d') }}
+                    <br/>
+                    {{ cat.shortDescription }}
+                </p>
+            </div>
+            <a href="/cats/{{ cat.id }}">
+                <div class="card-button">Więcej o mnie</div>
+            </a>
+        </div>
+    </div>
+{% endfor %}

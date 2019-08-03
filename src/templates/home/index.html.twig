@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}FurLove | Hodowla kotów rasy Devon Rex{% endblock %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('home') }}
+    <script src="https://unpkg.com/scrollreveal"></script>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('home') }}
+{% endblock %}
+
+{% block body %}
+
+    {% include 'components/home_carousel/index.html.twig' %}
+
+    <div class="container">
+
+        {% include 'components/quote/index.html.twig' %}
+
+        {% include 'components/updates/index.html.twig' %}
+
+        {% include 'components/kittens_carousel/index.html.twig' %}
+
+        {% include 'components/partners/index.html.twig' %}
+    </div>
+{% endblock %}

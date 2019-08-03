@@ -1,0 +1,9 @@
+{% extends 'admin/browse_base.html.twig' %}
+
+{% block content %}
+    <h4><b>{{ item.litter }}</b></h4>
+    <p style="margin: 0">
+        Matka: {{ item.mother.name }}<br />
+        Ojciec: {{ item.father.name }}
+    </p>
+{% endblock %}

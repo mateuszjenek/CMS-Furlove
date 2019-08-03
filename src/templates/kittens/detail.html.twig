@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}FurLove | {{ kitten.name }}{% endblock %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('kitten_detail') }}
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('kitten_detail') }}
+{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <div class="p-5 row">
+            <div class="col-md-5">
+                <div class="profile-img" style="background-image: url('{{ asset("uploads/kitten/" ~ kitten.images[0].image.filePath) }}')"></div>
+            </div>
+            <div class="pl-5 col-md-7" style="align-self: center;">
+                <h2 class="my-4"><b>Mam na imię {{ kitten.name }}</b></h2>
+                <h5>image.filePath się {{ kitten.birthDate.format('Y-m-d') }}</h5>
+                <h5>Ważę zaledwie {{ kitten.weight }} kg</h5>
+                <h5>Jestem {% if kitten.sex == 'M' %}chłopakiem <i style="color: deepskyblue" class="fas fa-mars"></i>{% else %}dziewczynką <i style="color: pink" class="fas fa-venus"></i>{% endif %}</h5>
+                <h4 style="color:{{ kitten.state == 0 ? 'green' : 'red' }}" class="my-3">{{ kitten.stateMessage }}</h4>
+            </div>
+        </div>
+
+        <h4><b>Trochę o mnie</b></h4>
+        <h5>{{ kitten.description }}</h5>
+
+        <h4 class="mt-4"><b>Galeria</b></h4>
+        <div id="carousel-md" class="d-none d-md-block">
+            {% for image in kitten.images %}
+                <a href="{{ asset("uploads/kitten/" ~ image.image.filePath) }}" data-lightbox="kitten-md">
+                    <img style="width: 100%" src="{{ asset("uploads/kitten/" ~ image.image.filePath) }}"/>
+                </a>
+            {% endfor %}
+        </div>
+
+        <div id="carousel" class="d-block d-md-none">
+            {% for image in kitten.images %}
+                <a href="{{ asset("uploads/kitten/" ~ image.image.filePath) }}" data-lightbox="kitten">
+                    <img style="width: 100%" src="{{ asset("uploads/kitten/" ~ image.image.filePath) }}"/>
+                </a>
+            {% endfor %}
+        </div>
+
+    </div>
+{% endblock %}

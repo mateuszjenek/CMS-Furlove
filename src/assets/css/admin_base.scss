@@ -1,0 +1,99 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~hamburgers/_sass/hamburgers/hamburgers";
+@import url('https://fonts.googleapis.com/css?family=Poppins:200');
+
+body {
+  background-color: #f7f7f7;
+}
+
+.nav-bar {
+  p {
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.edit-img-container {
+  display: inline-block;
+
+  .edit-checkbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+
+  .edit-img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}
+
+.base {
+  background-color: #f8f9fd;
+  @media (min-width: 768px) {
+    margin-left: 20rem;
+  }
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 999;
+  top: 0.5rem;
+  right: 0;
+
+  &.is-active {
+    .hamburger-inner {
+      background-color: white;
+    }
+    .hamburger-inner::before {
+      background-color: white;
+    }
+
+  }
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 30px;
+}
+
+#c-navbar {
+
+  z-index: 998;
+  background-color: #010743;
+  position: fixed;
+  top:0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  display: none;
+
+  @media (min-width: 768px) {
+    width: 20rem;
+    right: unset;
+    display: block;
+  }
+}
+
+.browse-img {
+  border-radius: 2rem 2rem 0 0;
+  height: 10rem;
+  @media (min-width: 768px) {
+    border-radius: 2rem 0 0 2rem;
+    height: unset;
+  }
+
+  background-size: cover;
+  background-position: center
+}
+
+.browse-btn {
+  background-color: #1EB0FC;
+  border-radius: 0 0 2rem 2rem;
+  @media (min-width: 768px) {
+    border-radius:  0 2rem 2rem 0;
+  }
+}

@@ -1,0 +1,8 @@
+{% if posts is defined and posts is not empty%}
+    <div class="py-5 posts">
+        <h1 class="text-center"><b>Aktualności</b></h1>
+        <div class="mb-2 home-line"></div>
+        {% include 'components/updates/post.html.twig' %}
+        <a href=" {{ path('posts') }}" class="btn btn-link posts-more-btn">Więcej postów</a>
+    </div>
+{% endif %}
