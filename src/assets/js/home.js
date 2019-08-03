@@ -39,7 +39,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
-        dots: true
+        dots: false,
+        arrows: false
     });
 
     // language=JQuery-CSS
@@ -48,7 +49,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
-        dots: true
+        dots: false,
+        arrows: false
     });
 });
 
