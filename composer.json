@@ -1,8 +1,0 @@
-{
-    "require": {
-        "doctrine/annotations": "^1.6"
-    },
-    "require-dev": {
-        "symfony/web-server-bundle": "^4.2"
-    }
-}
