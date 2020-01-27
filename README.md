@@ -29,7 +29,7 @@ docker-compose up
 
 **To open it in production mode run this command in *./docker* folder**
 ```sh
-docker-compose -f docker-compose-dev.yml up 
+docker-compose -f docker-compose-prod.yml up 
 ```
 
 License
